@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering Dapur Bunda Semarang</title>
+    <link rel="stylesheet" href="Style/main.css">
+    <script src="slider-focus.js" defer></script>
+
+    <!--Internal CSS
+    <style>
+        .fitur{
+            background: lightcyan;
+        }
+    </style>
+    Internal CSS-->
+
+</head>
+
+<body>
+
+   <!-- Kursor Kustom -->
+<div class="custom-dot" id="dot"></div>
+
+<!-- Navigasi Utama -->
+<nav id="navbar">
+    <a href="index.html" class="logo">Dapur Bunda.</a>
+    <div class="nav-links">
+        <a href="Beranda.html">Beranda</a>
+        <a href="Ceritakami.html">Cerita Kami</a>
+        <a href="Produkkami.html" class="active">Produk Kami</a>
+        <a href="Reservasi.html" class="nav-cta">Reservasi</a>
+    </div>
+</nav>
+
+<!-- Header Galeri Statis -->
+<header class="gallery-header">
+    <div class="header-content">
+        <span class="sub-title">KOLEKSI MENU</span>
+        <h1 id="page-title">Semua Produk</h1>
+        <p id="page-desc">Jelajahi berbagai pilihan menu terbaik kami untuk segala jenis acara Anda.</p>
+    </div>
+</header>
+
+
+<section class="gallery-section">
+    <!-- Filter Kategori -->
+    <!--<div class="filter-container">
+        <button class="filter-btn active" data-category="all">SEMUA</button>
+        <button class="filter-btn" data-category="prasmanan">PRASMANAN</button>
+        <button class="filter-btn" data-category="tumpeng">TUMPENG</button>
+        <button class="filter-btn" data-category="nasikotak">NASI KOTAK</button>
+        <button class="filter-btn" data-category="nasikuning">NASI KUNING</button>
+        <button class="filter-btn" data-category="gubukan">GUBUKAN</button>
+    </div>-->
+
+    <!-- Grid Produk -->
+    <div class="product-grid" id="productGrid">
+        <!-- Prasmanan -->
+        <div class="product-item prasmanan">
+            <img src="images/Prasmanan 1.jpeg" alt="Prasmanan Mewah">
+            <div class="item-overlay">
+                <span>PRASMANAN</span>
+                <h3>Paket Royal Buffet</h3>
+            </div>
+        </div>
+
+        <!-- Tumpeng -->
+        <div class="product-item tumpeng">
+            <img src="images/Soto 1.jpeg" alt="Tumpeng Tradisional">
+            <div class="item-overlay">
+                <span>Gubukan</span>
+                <h3>Gubukan Soto Ayam Spesial</h3>
+            </div>
+        </div>
+
+        <!-- Nasi Kotak -->
+        <div class="product-item nasikotak">
+            <img src="images/Nasi Box1.jpeg" alt="Nasi Kotak">
+            <div class="item-overlay">
+                <span>Bento Box</span>
+                <h3>Premium Bento Box Bear</h3>
+            </div>
+        </div>
+
+        <!-- Nasi Kuning -->
+        <div class="product-item nasikuning">
+            <img src="images/Gubukan2.jpeg" alt="Nasi Kuning">
+            <div class="item-overlay">
+                <span>Gubukan</span>
+                <h3>Gubukan Galantine Spesial</h3>
+            </div>
+        </div>
+
+        <!-- Gubukan -->
+        <div class="product-item gubukan">
+            <img src="images/Tumpeng.jpeg" alt="Menu Gubukan">
+            <div class="item-overlay">
+                <span>Tumpeng</span>
+                <h3>Tumpeng Nasi Kuning Spesial</h3>
+            </div>
+        </div>
+
+        <!-- Prasmanan 2 -->
+        <div class="product-item prasmanan">
+            <img src="images/Screenshot 2026-04-23 004132.png" alt="Prasmanan Modern">
+            <div class="item-overlay">
+                <span>Nasi Kotak</span>
+                <h3>Nasi Kotak Ayam Bakar</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Panggilan Aksi (CTA) -->
+    <div class="order-cta">
+        <p>Ingin menu kustom sesuai budget Anda?</p>
+        <a href="https://wa.me/6287838504518" class="main-cta-btn">KONSULTASI VIA WHATSAPP</a>
+    </div>
+</section>
+
+<!-- Lightbox (Preview Gambar Besar) -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img class="lightbox-content" id="lightboxImg">
+</div>
+
+    <footer>
+        <div class="footer-main">
+            <div class="footer-col">
+                <div class="footer-logo">Dapur Bunda.</div>
+                <p style="font-size: 0.9rem; color: var(--sage);">Penyedia layanan kuliner premium di Semarang yang mengutamakan kualitas bahan organik dan rasa autentik.</p>
+            </div>
+            <div class="footer-col">
+                <h4 style="margin-bottom: 2rem; font-size: 0.8rem; letter-spacing: 2px;">NAVIGASI</h4>
+                <ul style="list-style: none; font-size: 0.9rem; line-height: 2.5;">
+                    <li><a href="#" style="text-decoration: none; color: var(--sage);">Beranda</a></li>
+                    <li><a href="#" style="text-decoration: none; color: var(--sage);">Tentang Kami</a></li>
+                    <li><a href="#" style="text-decoration: none; color: var(--sage);">Menu Paket</a></li>
+                    <li><a href="#" style="text-decoration: none; color: var(--sage);">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 style="margin-bottom: 2rem; font-size: 0.8rem; letter-spacing: 2px;">KONTAK</h4>
+                <p style="font-size: 0.9rem; color: var(--sage); margin-bottom: 1rem;">info@dapurbunda.com</p>
+                <p style="font-size: 0.9rem; color: var(--sage);">0878 3850 4518</p>
+            </div>
+            <div class="footer-col">
+                <h4 style="margin-bottom: 2rem; font-size: 0.8rem; letter-spacing: 2px;">LOKASI</h4>
+                <p style="font-size: 0.9rem; color: var(--sage);">Jl. Candi Mutiara Tengah No. 292, Pasadena, Semarang.</p>
+            </div>
+        </div>
+        <div style="text-align: center; border-top: 1px solid #eee; padding-top: 2rem; color: #ccc; font-size: 0.7rem; letter-spacing: 2px;">
+            DESIGNED BY SAFIRRAA &copy; 2025 ALL RIGHTS RESERVED
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6287838504518" class="wa-float">
+        <span class="wa-badge">PESAN</span>
+        <svg width="30" height="30" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+        
+</body>
+</html>
