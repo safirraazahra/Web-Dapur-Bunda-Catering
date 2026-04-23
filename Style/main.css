@@ -515,6 +515,15 @@ h3, h4 {
             font-weight: 700;
             color: var(--emerald);
             text-decoration: none;
+            display: flex; /* Membuat teks dan gambar sejajar secara horizontal */
+            align-items: center; /* Membuat teks dan gambar sejajar secara vertikal (tengah) */
+            gap: 12px; /* Memberi jarak antara gambar logo dan teks */
+        }
+
+        .nav-logo-img {
+    height: 45px; /* Sesuaikan tinggi logo agar pas dengan navbar */
+    width: auto;  /* Biarkan lebar menyesuaikan secara proporsional */
+    object-fit: contain;
         }
 
         .nav-links {
